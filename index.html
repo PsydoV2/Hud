@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hunger -->
+    <div class="progressbar-1 progressbar">
+        <i class="fas fa-utensils"></i>
+        <div class="pro-1"></div>
+    </div>
+
+    <!-- Thirst -->
+    <div class="progressbar-2 progressbar">
+        <i class="fas fa-tint"></i>
+        <div class="pro-2"></div>
+    </div>
+
+    <!-- Health -->
+    <!-- <div class="progressbar-3 progressbar">
+        <i class="fas fa-heart"></i>
+        <div class="pro-3"></div>
+    </div> -->
+
+    <script>
+        window.addEventListener('message', function(event) {
+            switch(event.data.action) {
+                case 'update':
+                    $('.pro-1').css('width',event.data.hunger+'%')
+                    $('.pro-2').css('width',event.data.thirst+'%')
+                    // $('.pro-3').css('width',event.data.health+'%')
+                    
+                    break;
+            }
+        })
+    </script>
+</body>

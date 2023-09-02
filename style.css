@@ -1,0 +1,121 @@
+body{
+    overflow: hidden;
+
+    /* background-color: b; */
+}
+
+*{
+    --hunger: #29a544;
+    --hunger-back: rgba(255, 255, 255);
+    --durst: #3fa6eb;
+}
+
+
+
+.progressbar{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 170px;
+    height: 20px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-radius: 5px;
+}
+
+.progressbar-1{
+    position: absolute;
+    top: 94vh;
+    right: 3vh;
+}
+
+.progressbar-2{
+    position: absolute;
+    top: 97vh;
+    right: 3vh;
+    margin-top: -2px;
+}
+
+.pro-1{
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: rgb(4, 168, 4);
+}
+
+.pro-2{
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: rgb(44, 202, 255);
+}
+
+
+/* .progressbar-1 {
+    position: absolute;
+    top: 91vh;
+    width: 100px;
+    right: 3vh;
+    border-radius: 2vh;
+    outline: 5px solid black;
+    background-color: var(--hunger-back);
+}
+.pro-1 {
+    background-color: #29a544;
+    width: 50%;
+    height: 10px;
+    border-radius: 2.6vw;
+}
+.pro-1 i {
+    position: relative;
+    right: 2vh;
+    top: -0.3vh;
+}
+
+
+.progressbar-2 {
+    position: absolute;
+    top: 94vh;
+    width: 100px;
+    right: 3vh;
+    border-radius: 2vh;
+    outline: 5px solid black;
+    background-color: #ffffff;
+}
+.pro-2 {
+    background-color: #3fa6eb;
+    width: 50%;
+    height: 10px;
+    border-radius: 2.6vw;
+}
+.pro-2 i{
+    position: relative;
+    right: 2vh;
+    top: -0.3vh;
+} */
+
+/* .progressbar-3 {
+    position: absolute;
+    top: 88vh;
+    width: 13vw;
+    right: 3vh;
+    border-radius: 2vh;
+    background-color: #69373785;
+}
+.pro-3 {
+    background-color: #eb3f3f;
+    width: 50%;
+    height: 1vh;
+    border-radius: 2vw;
+}
+.pro-3 i{
+    position: relative;
+    right: 2vh;
+    top: -0.3vh;
+} */
