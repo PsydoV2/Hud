@@ -4,17 +4,13 @@ games { 'gta5' }
 
 version '1.0.0'
 
-name 'xHud_ui'
+name 'Hud'
 
 original_creator {
-    'AXFW'
+    'Psydo'
 }
 
-contributor {
-    '! Xavi#5456'
-}
-
-description 'Update of AXFW Status HUD'
+description 'Simple Hud for Hunger and Thirst'
 
 client_script 'client.lua'
 
